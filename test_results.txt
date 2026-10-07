@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.3, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\Tahsin\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Tahsin\Documents\ai110-module1show-gameglitchinvestigator-starter
+collecting ... collected 7 items
+
+tests/test_game_logic.py::test_winning_guess PASSED                      [ 14%]
+tests/test_game_logic.py::test_guess_too_high PASSED                     [ 28%]
+tests/test_game_logic.py::test_guess_too_low PASSED                      [ 42%]
+tests/test_game_logic.py::test_regression_high_guess_vs_46 PASSED        [ 57%]
+tests/test_game_logic.py::test_regression_low_guess_vs_47 PASSED         [ 71%]
+tests/test_game_logic.py::test_difficulty_ranges PASSED                  [ 85%]
+tests/test_game_logic.py::test_hint_direction_is_consistent_for_every_guess PASSED [100%]
+
+============================== 7 passed in 0.07s ==============================
